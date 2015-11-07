@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.11.7)  7 NOV 2015 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.11.7)  7 NOV 2015 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -946,35 +946,37 @@ Package pdftex.def Info: figures/equiv_capacitance-eps-converted-to.pdf used on
  input line 19.
 (pdftex.def)             Requested size: 390.0pt x 266.70901pt.
 ))
-(./source/bibliography.tex [5 <./figures/dielec_loss_const-eps-converted-to.pdf
->] [6 <./figures/equiv_capacitance-eps-converted-to.pdf>]) [7]
-(./TTT4205 Mikrobølgeteknikk - Project.aux) ) 
+(./source/sections/microstrip_line.tex
+(./source/subsections/effective_permittivity.tex)) (./source/bibliography.tex
+[5 <./figures/dielec_loss_const-eps-converted-to.pdf>] [6 <./figures/equiv_capa
+citance-eps-converted-to.pdf>]) [7] (./TTT4205 Mikrobølgeteknikk - Project.aux
+) ) 
 Here is how much of TeX's memory you used:
- 10836 strings out of 493309
- 228009 string characters out of 6140103
+ 10842 strings out of 493309
+ 228210 string characters out of 6140103
  244816 words of memory out of 5000000
  14106 multiletter control sequences out of 15000+600000
  18581 words of font info for 45 fonts, out of 8000000 for 9000
  953 hyphenation exceptions out of 8191
  39i,11n,35p,10458b,920s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/cm-super/sfcc1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/cm-super/sfcc2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super
-/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti12
-00.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on "TTT4205 Mikrobølgeteknikk - Project.pdf" (8 pages, 235129 b
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/
+sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx172
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/cm-super/sfti1728.pfb>
+Output written on "TTT4205 Mikrobølgeteknikk - Project.pdf" (8 pages, 236142 b
 ytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
