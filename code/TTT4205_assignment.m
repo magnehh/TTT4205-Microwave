@@ -3,6 +3,7 @@ close all; clear all;
 c = 3e8;
 mu_r = 1;
 epsilon_0 = 8.854187817e-12;
+mu_0 = pi * 4e-7;
 
 epsilon_r = 1; % For hollow waveguide
 epsilon_r_student_nr = (1 + (0.24 * 6)); % Waveguide filled with perfect dielectric
@@ -131,11 +132,32 @@ ylabel({'Dielectric loss constant'},'FontUnits','points','interpreter','latex','
 xlabel({'$f/f_{\rm c}$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
 print -depsc2 dielec_loss_const.eps;
 
+s = 0.32*b;
 
+equiv_capacitance_10 = zeros(100,2); % Init vector
 
+% Calculate table for equivalent capacitance
+for i = 1:100
+    equiv_capacitance_10(i,1) = F(i);
+    equiv_capacitance_10(i,2) = equiv_capacitance(F(i),s,1,0,a,b,epsilon_r,mu_r);
+end
 
+figure('Units','centimeters','Position',[0 0 17 10],'PaperPositionMode','auto');
+plot(equiv_capacitance_10(:,1),real(equiv_capacitance_10(:,2)));
+grid on;
+ax = gca;
+ax.Units = 'normalized';
+ax.FontUnits = 'points';
+ax.FontWeight = 'normal';
+ax.FontSize = 13;
+ax.FontName = 'Times';
+%ax.YTick = 0:0.25:1.5;
+ax.XTick = 7.5e9:25e8:16e9;
+ylabel({'Equivalent capacitance ${\rm [F]}$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
+xlabel({'$f {\rm [Hz]}$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
+print -depsc2 equiv_capacitance.eps;
 
-
+equiv_inductance_10 = equiv_inductance(s,1,0,a,b,mu_r,mu_0)
 
 
 
