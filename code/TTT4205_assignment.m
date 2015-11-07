@@ -49,7 +49,6 @@ xlabel({'$f [{\textrm Hz}]$'},'FontUnits','points','interpreter','latex','FontSi
 legend({'${\rm TE_{\rm 10}}$','${\rm TE_{\rm 20}}$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times','Location','northwest');
 print -depsc2 prop_const.eps;
 
-%F = 7.75e9:1e8:15.75e9;
 F = f_c_10:(f_c_20 - f_c_10)/99:f_c_20;
 V_ph_10 = zeros(100,2); % Init vector
 V_g_10 = zeros(100,2); % Init vector
@@ -108,13 +107,14 @@ print -depsc2 wave_imp.eps;
 
 f_c_10_student_nr = f_c_mn(1,0,a,b,epsilon_r_student_nr,mu_r)
 f_c_20_student_nr = f_c_mn(2,0,a,b,epsilon_r_student_nr,mu_r)
+F_student_nr = f_c_10_student_nr:(f_c_20_student_nr - f_c_10_student_nr)/99:f_c_20_student_nr;
 
 loss_constant_10 = zeros(100,2); % Init vector
 
 % Calculate table for loss constant (normalized frequency)
 for i = 1:100
-    loss_constant_10(i,1) = F(i)/f_c_mn(1,0,a,b,epsilon_r,mu_r);
-    loss_constant_10(i,2) = loss_constant(F(i),1,0,a,b,epsilon_r,mu_r);
+    loss_constant_10(i,1) = F_student_nr(i)/f_c_mn(1,0,a,b,epsilon_r_student_nr,mu_r);
+    loss_constant_10(i,2) = loss_constant(F_student_nr(i),1,0,a,b,epsilon_r_student_nr,mu_r);
 end
 
 figure('Units','centimeters','Position',[0 0 17 10],'PaperPositionMode','auto');
@@ -126,8 +126,8 @@ ax.FontUnits = 'points';
 ax.FontWeight = 'normal';
 ax.FontSize = 13;
 ax.FontName = 'Times';
-ax.YTick = 0:0.25:1.5;
-ax.XTick = 0.5:0.25:2;
+%ax.YTick = 0:0.25:1.5;
+%ax.XTick = 0.5:0.25:2;
 ylabel({'Dielectric loss constant'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
 xlabel({'$f/f_{\rm c}$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
 print -depsc2 dielec_loss_const.eps;

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.11.7)  7 NOV 2015 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.11.7)  7 NOV 2015 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,24 +907,30 @@ ne 10.
 (./source/subsections/dielectric_loss_constant.tex [2 <./figures/prop_const-eps
 -converted-to.pdf>] [3 <./figures/velocity-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/dielec_loss_const.eps>
-(epstopdf)                    date: 2015-11-07 16:01:46
-(epstopdf)                    size: 179037 bytes
+(epstopdf)                    date: 2015-11-07 18:19:22
+(epstopdf)                    size: 180147 bytes
 (epstopdf)             Output file: <figures/dielec_loss_const-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-11-07 16:03:13
-(epstopdf)                    size: 8398 bytes
+(epstopdf)                    date: 2015-11-07 18:10:05
+(epstopdf)                    size: 8380 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/dielec_loss_const-
 eps-converted-to.pdf figures/dielec_loss_const.eps>
 (epstopdf)             \includegraphics on input line 27.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figures/dielec_loss_const-eps-converted-to.pdf fi
+gures/dielec_loss_const.eps)...executed safely (allowed).
 
-<figures/dielec_loss_const-eps-converted-to.pdf, id=67, 434.62375pt x 260.975pt
+Package epstopdf Info: Result file: <figures/dielec_loss_const-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2015-11-07 18:20:28
+(epstopdf)                    size: 8587 bytes.
+
+<figures/dielec_loss_const-eps-converted-to.pdf, id=67, 426.59375pt x 269.005pt
 >
 File: figures/dielec_loss_const-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/dielec_loss_const-eps-converted-to.pdf>
 Package pdftex.def Info: figures/dielec_loss_const-eps-converted-to.pdf used on
  input line 27.
-(pdftex.def)             Requested size: 390.0pt x 234.19438pt.
+(pdftex.def)             Requested size: 390.0pt x 245.94423pt.
 ) [4 <./figures/wave_imp-eps-converted-to.pdf>] (./source/subsections/equiv_cap
 acitance.tex
 Package epstopdf Info: Source file: <figures/equiv_capacitance.eps>
@@ -976,7 +982,7 @@ live/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/cm-super/sfti1728.pfb>
-Output written on "TTT4205 Mikrobølgeteknikk - Project.pdf" (8 pages, 236142 b
+Output written on "TTT4205 Mikrobølgeteknikk - Project.pdf" (8 pages, 236356 b
 ytes).
 PDF statistics:
  184 PDF objects out of 1000 (max. 8388607)
