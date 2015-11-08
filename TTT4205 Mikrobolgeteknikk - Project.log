@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  8 NOV 2015 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  8 NOV 2015 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,83 +939,102 @@ Package pdftex.def Info: figures/equiv_capacitance-eps-converted-to.pdf used on
 (./source/subsections/effective_permittivity.tex [5 <./figures/dielec_loss_cons
 t-eps-converted-to.pdf>] [6 <./figures/equiv_capacitance-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/eff_rel_perm_t7.eps>
-(epstopdf)                    date: 2015-11-08 15:42:58
-(epstopdf)                    size: 184370 bytes
+(epstopdf)                    date: 2015-11-08 18:39:23
+(epstopdf)                    size: 246788 bytes
 (epstopdf)             Output file: <figures/eff_rel_perm_t7-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-11-08 15:44:11
-(epstopdf)                    size: 12173 bytes
+(epstopdf)                    date: 2015-11-08 18:39:52
+(epstopdf)                    size: 13099 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/eff_rel_perm_t7-ep
 s-converted-to.pdf figures/eff_rel_perm_t7.eps>
 (epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/eff_rel_perm_t7-eps-converted-to.pdf, id=125, 422.57875pt x 268.00125p
-t>
+<figures/eff_rel_perm_t7-eps-converted-to.pdf, id=125, 415.5525pt x 269.005pt>
 File: figures/eff_rel_perm_t7-eps-converted-to.pdf Graphic file (type pdf)
- <use figures/eff_rel_perm_t7-eps-converted-to.pdf>
+
+<use figures/eff_rel_perm_t7-eps-converted-to.pdf>
 Package pdftex.def Info: figures/eff_rel_perm_t7-eps-converted-to.pdf used on i
 nput line 11.
-(pdftex.def)             Requested size: 390.0pt x 247.3452pt.
+(pdftex.def)             Requested size: 390.0pt x 252.47478pt.
 )
 (./source/subsections/characteristic_impedance.tex [7 <./figures/eff_rel_perm_t
 7-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/char_imped_t8.eps>
-(epstopdf)                    date: 2015-11-08 17:42:59
-(epstopdf)                    size: 181140 bytes
+(epstopdf)                    date: 2015-11-08 18:39:24
+(epstopdf)                    size: 245286 bytes
 (epstopdf)             Output file: <figures/char_imped_t8-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2015-11-08 17:43:25
-(epstopdf)                    size: 10109 bytes
+(epstopdf)                    date: 2015-11-08 18:39:53
+(epstopdf)                    size: 11668 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/char_imped_t8-eps-
 converted-to.pdf figures/char_imped_t8.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/char_imped_t8-eps-converted-to.pdf, id=149, 415.5525pt x 268.00125pt>
+<figures/char_imped_t8-eps-converted-to.pdf, id=153, 418.56375pt x 269.005pt>
 File: figures/char_imped_t8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/char_imped_t8-eps-converted-to.pdf>
 Package pdftex.def Info: figures/char_imped_t8-eps-converted-to.pdf used on inp
 ut line 17.
-(pdftex.def)             Requested size: 390.0pt x 251.5327pt.
+(pdftex.def)             Requested size: 390.0pt x 250.64409pt.
 )
-(./source/subsections/reflect_trans_coeff.tex)) (./source/bibliography.tex)
-[8 <./figures/char_imped_t8-eps-converted-to.pdf>]
-(./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
+(./source/subsections/reflect_trans_coeff.tex
+Package epstopdf Info: Source file: <figures/s-matrix_t9.eps>
+(epstopdf)                    date: 2015-11-08 18:39:25
+(epstopdf)                    size: 250833 bytes
+(epstopdf)             Output file: <figures/s-matrix_t9-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-08 18:48:46
+(epstopdf)                    size: 12928 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/s-matrix_t9-eps-co
+nverted-to.pdf figures/s-matrix_t9.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/s-matrix_t9-eps-converted-to.pdf, id=154, 420.57124pt x 269.005pt>
+File: figures/s-matrix_t9-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/s-matrix_t9-eps-converted-to.pdf>
+Package pdftex.def Info: figures/s-matrix_t9-eps-converted-to.pdf used on input
+ line 17.
+(pdftex.def)             Requested size: 390.0pt x 249.45374pt.
+)) (./source/bibliography.tex
+[8 <./figures/char_imped_t8-eps-converted-to.pdf>]) [9 <./figures/s-matrix_t9-e
+ps-converted-to.pdf>] (./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
 Here is how much of TeX's memory you used:
- 11825 strings out of 493089
- 244489 string characters out of 6134842
- 259905 words of memory out of 5000000
- 15153 multiletter control sequences out of 15000+600000
+ 11833 strings out of 493089
+ 244731 string characters out of 6134842
+ 259931 words of memory out of 5000000
+ 15160 multiletter control sequences out of 15000+600000
  19482 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,39p,10432b,924s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dis
-t/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
--super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
-uper/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
-er/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
-/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
-frm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sft
-i1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1
-728.pfb>
-Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (9 pages, 266049 by
-tes).
+{/usr/local/
+texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/cm-super/sfti1728.pfb>
+Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (10 pages, 279154 b
+ytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 259 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

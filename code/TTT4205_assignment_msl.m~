@@ -84,8 +84,8 @@ ax.FontName = 'Times';
 %ax.XTick = 7.5e9:25e8:16e9;
 ylabel({'Magnitude'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
 xlabel({'Width of microstrip conductor $[W]$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
-legend({'Transmission coefficient','Reflection coefficient'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times','Location','southeast');
-print -depsc2 s-matrix_t9.eps;
+legend({'Reflection coefficient','Transmission coefficient'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times','Location','northeast');
+%print -depsc2 velocity.eps;
 
 
 

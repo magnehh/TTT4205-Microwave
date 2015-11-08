@@ -1,1 +1,20 @@
-\subsection{reflecttranscoeff}
+\subsection{S-matrix coefficients}
+The S-matrix coefficients, transmission and reflection, are given by equations \ref{eq:trans_coeff} and \ref{eq:reflect_coeff}.
+They are plotted in figure \ref{fig:s-matrix}.
+
+\begin{equation}
+T = \frac{2 \sqrt{Z_{\rm c}^{\rm (2)} Z_{\rm c}^{\rm (1)}} } {Z_{\rm c}^{\rm (2)} + Z_{\rm c}^{\rm (1)}}
+\label{eq:trans_coeff}
+\end{equation}
+
+\begin{equation}
+R = \frac{Z_{\rm c}^{\rm (2)} - Z_{\rm c}^{\rm (1)} } {Z_{\rm c}^{\rm (2)} + Z_{\rm c}^{\rm (1)}}
+\label{eq:reflect_coeff}
+\end{equation}
+
+\begin{figure}[h t b p]
+	\centering
+	\includegraphics[width=\textwidth,keepaspectratio]{figures/s-matrix_t9.eps}
+	\caption{S-matrix coefficients of microstrip line.}
+	\label{fig:s-matrix}
+\end{figure}
