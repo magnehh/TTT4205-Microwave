@@ -32,3 +32,15 @@ ax.FontName = 'Times';
 ylabel({'Effective relative permittivity $[\epsilon_{\rm eff}]$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
 xlabel({'Width of microstrip conductor $[W]$'},'FontUnits','points','interpreter','latex','FontSize',13,'FontName','Times');
 print -depsc2 eff_rel_perm_t7.eps;
+
+
+
+
+
+
+
+
+
+
+
+
