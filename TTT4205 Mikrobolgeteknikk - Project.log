@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  8 NOV 2015 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  8 NOV 2015 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,41 +913,51 @@ File: figures/eff_rel_perm_t7-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/eff_rel_perm_t7-eps-converted-to.pdf used on i
 nput line 11.
 (pdftex.def)             Requested size: 390.0pt x 247.3452pt.
-))
-(./source/bibliography.tex) [7 <./figures/eff_rel_perm_t7-eps-converted-to.pdf>
-] (./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
+)
+(./source/subsections/characteristic_impedance.tex
+! Undefined control sequence.
+l.4 ...\frac{60}{\epsilon_{\rm eff}(f=0)} \ln \lef
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)) (./source/bibliography.tex [7 <./figures/eff_rel_perm_t7-eps-converted-to.pd
+f>]) [8] (./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
 Here is how much of TeX's memory you used:
- 11260 strings out of 493089
- 237898 string characters out of 6134842
- 250129 words of memory out of 5000000
- 14606 multiletter control sequences out of 15000+600000
+ 11264 strings out of 493089
+ 238031 string characters out of 6134842
+ 250138 words of memory out of 5000000
+ 14607 multiletter control sequences out of 15000+600000
  18581 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,39p,10432b,920s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-d
-ist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
--super/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
-/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
-fti1728.pfb>
-Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (8 pages, 248159 by
+{/usr/local/texlive/2015/
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/cm-super/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
+m-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfti1728.pfb>
+Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (9 pages, 248713 by
 tes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 208 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
