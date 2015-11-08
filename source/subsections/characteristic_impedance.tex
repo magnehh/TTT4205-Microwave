@@ -1,6 +1,11 @@
 \subsection{Characteristic impedance}
 The characteristic impedance of a microstrip line is given by equation \ref{eq:char_imp}.
+
 \begin{equation}
-Z_{\rm c} = \frac{60}{\epsilon_{\rm eff}(f=0)} \ln \lef
+Z_{\rm c} =
+\begin{cases}
+\frac{60}{\epsilon_{\rm eff}(f=0)} \ln \left( \frac{8h}{W} + \frac{0.25W}{h} \right) & \frac{W}{h} < 1\\
+\frac{120 \pi}{\sqrt{\epsilon_{\rm eff}(f=0)} \left[ \frac{W}{h} + 1.393 + 0.667 \ln \left( \frac{W}{h} + 1.444 \right) \right]} & \frac{W}{h} \geq 1
+\end{cases}
 \label{eq:char_imp}
 \end{equation}
