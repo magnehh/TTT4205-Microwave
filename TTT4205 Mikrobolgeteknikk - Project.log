@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  11 NOV 2015 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  11 NOV 2015 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,35 +666,43 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count147
+\float@exts=\toks23
+\float@box=\box50
+\@float@everytoks=\toks24
+\@floatcapt=\box51
+)
 (./TTT4205 Mikrobolgeteknikk - Project.aux)
 \openout1 = `"TTT4205 Mikrobolgeteknikk - Project.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count147
+\scratchcounter=\count148
 \scratchdimen=\dimen160
-\scratchbox=\box50
-\nofMPsegments=\count148
-\nofMParguments=\count149
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count150
+\scratchbox=\box52
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count151
 \MPscratchDim=\dimen161
-\MPnumerator=\count151
-\makeMPintoPDFobject=\count152
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -825,8 +833,8 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count153
-\c__siunitx_mathtt_int=\count154
+\c__siunitx_mathsf_int=\count154
+\c__siunitx_mathtt_int=\count155
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -1039,8 +1047,7 @@ File: figures/41_21_3dB-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/41_21_3dB-eps-converted-to.pdf>
 Package pdftex.def Info: figures/41_21_3dB-eps-converted-to.pdf used on input l
 ine 19.
-(pdftex.def)             Requested size: 390.0pt x 328.20197pt.
- [10] [11 <./figures/msbldc-model-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 312.00119pt x 262.56157pt.
 Package epstopdf Info: Source file: <figures/41_21_phase.eps>
 (epstopdf)                    date: 2015-11-11 18:09:56
 (epstopdf)                    size: 42669 bytes
@@ -1052,15 +1059,15 @@ nverted-to.pdf figures/41_21_phase.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/41_21_phase-eps-converted-to.pdf, id=730, 569.12625pt x 467.7475pt>
+<figures/41_21_phase-eps-converted-to.pdf, id=203, 569.12625pt x 467.7475pt>
 File: figures/41_21_phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/41_21_phase-eps-converted-to.pdf>
 Package pdftex.def Info: figures/41_21_phase-eps-converted-to.pdf used on input
  line 26.
-(pdftex.def)             Requested size: 390.0pt x 320.5407pt.
-)
-(./source/subsections/elmag-sim.tex
+(pdftex.def)             Requested size: 312.00119pt x 256.43399pt.
+ [10] [11 <./figures/msbldc-model-eps-converted-to.pdf>]) (./source/subsections
+/elmag-sim.tex
 Package epstopdf Info: Source file: <figures/big_sim_sch.eps>
 (epstopdf)                    date: 2015-11-11 18:39:40
 (epstopdf)                    size: 3922563 bytes
@@ -1079,6 +1086,13 @@ File: figures/big_sim_sch-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/big_sim_sch-eps-converted-to.pdf used on input
  line 8.
 (pdftex.def)             Requested size: 390.0pt x 385.82364pt.
+
+<figures/sim_field_colors.png, id=732, 704.6325pt x 433.62pt>
+File: figures/sim_field_colors.png Graphic file (type png)
+
+<use figures/sim_field_colors.png>
+Package pdftex.def Info: figures/sim_field_colors.png used on input line 21.
+(pdftex.def)             Requested size: 390.0pt x 240.00029pt.
 Package epstopdf Info: Source file: <figures/big_sim_41_21.eps>
 (epstopdf)                    date: 2015-11-11 20:49:22
 (epstopdf)                    size: 44174 bytes
@@ -1088,16 +1102,16 @@ Package epstopdf Info: Source file: <figures/big_sim_41_21.eps>
 (epstopdf)                    size: 14436 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/big_sim_41_21-eps-
 converted-to.pdf figures/big_sim_41_21.eps>
-(epstopdf)             \includegraphics on input line 21.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/big_sim_41_21-eps-converted-to.pdf, id=732, 568.1225pt x 541.02126pt>
+<figures/big_sim_41_21-eps-converted-to.pdf, id=733, 568.1225pt x 541.02126pt>
 File: figures/big_sim_41_21-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/big_sim_41_21-eps-converted-to.pdf>
 Package pdftex.def Info: figures/big_sim_41_21-eps-converted-to.pdf used on inp
-ut line 21.
-(pdftex.def)             Requested size: 390.0pt x 371.40634pt.
+ut line 28.
+(pdftex.def)             Requested size: 312.00119pt x 297.12508pt.
 Package epstopdf Info: Source file: <figures/big_sim_phase.eps>
 (epstopdf)                    date: 2015-11-11 18:39:37
 (epstopdf)                    size: 40771 bytes
@@ -1107,37 +1121,32 @@ Package epstopdf Info: Source file: <figures/big_sim_phase.eps>
 (epstopdf)                    size: 15082 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/big_sim_phase-eps-
 converted-to.pdf figures/big_sim_phase.eps>
-(epstopdf)             \includegraphics on input line 28.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/big_sim_phase-eps-converted-to.pdf, id=733, 568.1225pt x 411.5375pt>
+<figures/big_sim_phase-eps-converted-to.pdf, id=734, 568.1225pt x 411.5375pt>
 File: figures/big_sim_phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/big_sim_phase-eps-converted-to.pdf>
 Package pdftex.def Info: figures/big_sim_phase-eps-converted-to.pdf used on inp
-ut line 28.
-(pdftex.def)             Requested size: 390.0pt x 282.51689pt.
+ut line 35.
+(pdftex.def)             Requested size: 312.00119pt x 226.0135pt.
+)) (./source/bibliography.tex
+[12 <./figures/sim_field_colors.png>] [13 <./figures/41_21_3dB-eps-converted-to
+.pdf> <./figures/41_21_phase-eps-converted-to.pdf>] [14 <./figures/big_sim_sch-
+eps-converted-to.pdf>] [15 <./figures/big_sim_41_21-eps-converted-to.pdf> <./fi
+gures/big_sim_phase-eps-converted-to.pdf>]) [16
 
-<figures/sim_field_colors.png, id=734, 704.6325pt x 433.62pt>
-File: figures/sim_field_colors.png Graphic file (type png)
-
-<use figures/sim_field_colors.png>
-Package pdftex.def Info: figures/sim_field_colors.png used on input line 35.
-(pdftex.def)             Requested size: 390.0pt x 240.00029pt.
-)) (./source/bibliography.tex [12 <./figures/41_21_3dB-eps-converted-to.pdf>] [
-13 <./figures/41_21_phase-eps-converted-to.pdf>] [14 <./figures/big_sim_sch-eps
--converted-to.pdf>] [15 <./figures/big_sim_41_21-eps-converted-to.pdf>] [16 <./
-figures/big_sim_phase-eps-converted-to.pdf>]) [17 <./figures/sim_field_colors.p
-ng>]
+]
 (./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
 Here is how much of TeX's memory you used:
- 11892 strings out of 493089
- 246565 string characters out of 6134842
- 260036 words of memory out of 5000000
- 15199 multiletter control sequences out of 15000+600000
+ 11952 strings out of 493089
+ 247363 string characters out of 6134842
+ 261425 words of memory out of 5000000
+ 15255 multiletter control sequences out of 15000+600000
  19482 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,41p,10432b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,16n,41p,10432b,932s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dis
 t/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/f
@@ -1158,11 +1167,11 @@ er/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
 frm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sft
 i1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1
 728.pfb>
-Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (18 pages, 2615420 
+Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (17 pages, 2615136 
 bytes).
 PDF statistics:
- 1506 PDF objects out of 1728 (max. 8388607)
- 229 compressed objects within 3 object streams
+ 1503 PDF objects out of 1728 (max. 8388607)
+ 227 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
