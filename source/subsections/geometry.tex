@@ -1,0 +1,64 @@
+\subsection{Calculating geometry of MS-BLDC}
+
+We want to design a Microstrip branch-line directional coupler with coupling and directivity ratios \SI{-3}{\decibel} at the center frequency.
+The isolation ratio should be as low as possible.
+
+The \emph{Keysight ADS tools} can be used to calculate the geometry of a microstrip branch-line directional coupler.
+In order to use the ADS LineCalc utility, we have to obtain some parameters beforehand.
+These parameters are given by equations \ref{eq:z1} and \ref{eq:z2}.
+
+\begin{equation}
+Z_{\rm 0,1} = Z_{\rm 0} \sqrt{1 - k_{\rm c}^{2}}
+\label{eq:z1}
+\end{equation}
+
+\begin{equation}
+Z_{\rm 0,2} = \frac{Z_{\rm 0,1}} {\sqrt{1 - \left( \frac{Z_{\rm 0,1}}{Z_{\rm 0}} \right)^2}}
+\label{eq:z2}
+\end{equation}
+
+Here $k_{\rm c}$ is given by
+
+\begin{equation}
+k_{\rm c} = \sqrt{\frac{P_{\rm c}}{P_{\rm i}}} = \sqrt{\frac{1}{2}}
+\end{equation}
+
+where $P_{\rm i}$ is the incident power and $P_{\rm c}$ is the power in the coupled port.
+We also have to take into account that port 1, port 2 and port 4 are all a quarter wavelength away from each other.
+Therefore, ideally, the power on port 2 and 4 should be \SI{90}{\degree} out of phase.
+We shall examine this closer later. \par
+
+Inserting the values in table \ref{tab:linecalc} into  ADS LineCalc, the results in table \ref{tab:msbldc_geometry} are obtained.
+
+\begin{table}[h t b p]
+\centering
+\caption{ADS LineCalc input parameters}
+\begin{tabular}{|c|c|} \hline
+Parameter & Size \\ \hline
+$F_{\rm 0}$  & \SI{1.6}{\giga\hertz} \\
+$h$ & \SI{1}{\milli\meter} \\
+$\epsilon_{\rm r}$ & 3.32 \\
+$Z_{\rm 0}$ & \SI{50}{\ohm} \\
+$Z_{\rm 0,1}$ & \SI{35.3553}{\ohm} \\
+$Z_{\rm 0,2}$ & \SI{50.0000}{\ohm} \\
+$\Delta \phi$ & \SI{90}{\degree} \\
+\hline
+\end{tabular}
+\label{tab:linecalc}
+\end{table}
+
+\begin{table}[h t b p]
+\centering
+\caption{Branch-line coupler geometry}
+\begin{tabular}{|c|c|} \hline
+Parameter & Size \\ \hline
+L50 & \SI{28.8218}{\milli\meter} \\
+W50 & \SI{2.33717}{\milli\meter} \\
+L1 & \SI{28.2112}{\milli\meter} \\
+W1 & \SI{3.91089}{\milli\meter} \\
+L2 & \SI{28.8170}{\milli\meter} \\
+W2 & \SI{2.34683}{\milli\meter} \\
+\hline
+\end{tabular}
+\label{tab:msbldc_geometry}
+\end{table}

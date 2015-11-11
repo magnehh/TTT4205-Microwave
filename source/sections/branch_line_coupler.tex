@@ -1,20 +1,5 @@
 \section{Microstrip Branch-Line Directional Coupler}
-The \emph{Keysight ADS tools} can be used to calculate the geometry of a microstrip branch-line directional coupler.
-Inserting the following values into ADS, the results in table \ref{tab:msbldc_geometry} are obtained.
-\begin{itemize}
-\item $F_{\rm 0} = \SI{1.6}{\giga\hertz}$
-\item $h = \SI{1}{\milli\meter}$
-\item $\epsilon_{\rm r} = 3.32$
-\item $Z_{\rm 0} = \SI{50}{\ohm}$
-\end{itemize}
 
-\begin{table}[h t b p]
-\centering
-\caption{Branch-line coupler geometry}
-\begin{tabular}{|c|c|} \hline
-Parameter & Size \\ \hline
-${\rm TE}_{\rm 10}$ & \SI{5.0408}{\giga\hertz} \\
-${\rm TE}_{\rm 20}$ & \SI{10.082}{\giga\hertz} \\ \hline
-\end{tabular}
-\label{tab:msbldc_geometry}
-\end{table}
+\input{source/subsections/geometry.tex}
+
+\input{source/subsections/simulation.tex}

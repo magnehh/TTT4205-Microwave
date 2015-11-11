@@ -1,0 +1,9 @@
+SYSTEM_CUSTOM_CIRCUIT_SYMBOLS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS};{$HPEESOF_DIR}\custom\{%PROJECT1}\symbols
+SYSTEM_CUSTOM_CIRCUIT_DESIGNS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_DESIGNS};{$HPEESOF_DIR}\custom\{%PROJECT1}\designs
+VIA_CONFIG_PATH={%DESIGN_KIT_VIA_CONFIG_PATH};.:{%PROJECT_SEARCH_PATH}:{$HOME}\hpeesof\de\defaults:{$HPEESOF_DIR}\de\defaults:{%DESIGN_KIT_VIA_CONFIG_PATH}:{%USER_VIA_CONFIG_PATH}
+LAST_LIBRARY_SELECTED=branch_line_dir_coupler_lib
+SCHEM_FILE_OPEN_HISTORY_1=branch_line_dir_coupler_lib:branch_line:schematic
+SCHEM_FILE_OPEN_HISTORY_2=branch_line_dir_coupler_lib:branch_line_test:schematic
+SYMBOL_FILE_OPEN_HISTORY_1=branch_line_dir_coupler_lib:branch_line:symbol
+LAYOUT_FILE_OPEN_HISTORY_1=branch_line_dir_coupler_lib:branch_line:layout
+SUBSTRATE_FILE_OPEN_HISTORY_1=branch_line_dir_coupler_lib:substrate1

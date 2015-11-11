@@ -1,0 +1,61 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="branch_line_dir_coupler_lib:branch_line_test:schematic"
+define branch_line ( P1  P2  P3  P4 ) 
+;parameters 
+MLIN2:TL1  P1 N__17 Subst="MSub1" W=W50 mm L=L50 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL2  P3 N__3 Subst="MSub1" W=W50 mm L=L50 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL3  N__4 P2 Subst="MSub1" W=W50 mm L=L50 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL4  N__6 P4 Subst="MSub1" W=W50 mm L=L50 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL5  N__8 N__20 Subst="MSub1" W=W1 mm L=L1 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL6  N__10 N__25 Subst="MSub1" W=W1 mm L=L1 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL7  N__12 N__24 Subst="MSub1" W=W2 mm L=L2 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MLIN2:TL8  N__14 N__15 Subst="MSub1" W=W2 mm L=L2 mm Wall1=2.5e+028 mm Wall2=2.5e+028 mm Mod=1 
+MTEE_ADS:Tee1  N__17 N__8 N__12 Subst="MSub1" W1=W50 mm W2=W1 mm W3=W2 mm 
+MTEE_ADS:Tee2  N__20 N__4 N__14 Subst="MSub1" W1=W1 mm W2=W50 mm W3=W2 mm 
+MTEE_ADS:Tee3  N__10 N__3 N__24 Subst="MSub1" W1=W1 mm W2=W50 mm W3=W2 mm 
+MTEE_ADS:Tee4  N__6 N__25 N__15 Subst="MSub1" W1=W50 mm W2=W1 mm W3=W2 mm 
+
+L50=15.0079 opt{ 15 to 30 }
+W50=2.34946 opt{ 2.2 to 2.4 }
+W1=3.831 opt{ 3.8 to 4 }
+L1=26.3835 opt{ 15 to 30 }
+W2=2.29944 opt{ 2.2 to 2.4 }
+L2=28.0651 opt{ 15 to 30 }
+model MSub1 MSUB H=1 mm Er=3.32 Mur=1 Cond=4.1e7 Hu=1.0e+033 mm T=0.150 mil TanD=0 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+end branch_line
+branch_line:I__0  N__2 N__0 N__3 N__1 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=1.5 GHz Stop=1.7 GHz Step=1 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:Term1  N__2 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__0 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  N__3 0 Num=3 Z=50 Ohm Noise=yes 
+Port:Term4  N__1 0 Num=4 Z=50 Ohm Noise=yes 
+
+Optim:"Optim1" OptimType="random" ErrorForm="L2" MaxIters=250000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=no UseAllGoals=no GoalName[1]="OptimGoal2" GoalName[2]="OptimGoal1" SaveCurrentEF=no InitialTemp=0.1 NumShootsPerIter=20 EnableCockpit=yes SaveAllTrials=no 
+
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=100 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" SpecLimitLine[2]="OptimGoal1_limit2" 
+SpecLimitLine:"OptimGoal1_limit1" Type="Inside" Min=-3.1 Max=-2.9 Weight=50 \
+IndepVar[1]="freq" IndepMin[1]=1.5e+09 IndepMax[1]=1.7e+09 
+SpecLimitLine:"OptimGoal1_limit2" Type="EqualTo" Min=-3 Max=-3 Weight=1000 \
+IndepVar[1]="freq" IndepMin[1]=1.6e+09 IndepMax[1]=1.6e+09 
+OptimGoal:OptimGoal2 Expr="dB(S(4,1))" SimInstanceName="SP1" Weight=100 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" SpecLimitLine[2]="OptimGoal2_limit2" 
+SpecLimitLine:"OptimGoal2_limit1" Type="Inside" Min=-3.1 Max=-2.9 Weight=50 \
+IndepVar[1]="freq" IndepMin[1]=1.5e+09 IndepMax[1]=1.7e+09 
+SpecLimitLine:"OptimGoal2_limit2" Type="EqualTo" Min=-3 Max=-3 Weight=1000 \
+IndepVar[1]="freq" IndepMin[1]=1.6e+09 IndepMax[1]=1.6e+09 

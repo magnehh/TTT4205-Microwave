@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  8 NOV 2015 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.6)  11 NOV 2015 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,50 +1000,64 @@ Package pdftex.def Info: figures/s-matrix_t9-eps-converted-to.pdf used on input
  line 17.
 (pdftex.def)             Requested size: 390.0pt x 249.45374pt.
 ))
-(./source/sections/branch_line_coupler.tex [8 <./figures/char_imped_t8-eps-conv
-erted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-)
-(./source/bibliography.tex [9 <./figures/s-matrix_t9-eps-converted-to.pdf>])
-[10] (./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
+(./source/sections/branch_line_coupler.tex (./source/subsections/geometry.tex
+[8 <./figures/char_imped_t8-eps-converted-to.pdf>] [9 <./figures/s-matrix_t9-ep
+s-converted-to.pdf>]) (./source/subsections/simulation.tex
+Package epstopdf Info: Source file: <figures/msbldc-model.eps>
+(epstopdf)                    date: 2015-11-11 17:43:15
+(epstopdf)                    size: 3030110 bytes
+(epstopdf)             Output file: <figures/msbldc-model-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-11-11 17:43:49
+(epstopdf)                    size: 949660 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/msbldc-model-eps-c
+onverted-to.pdf figures/msbldc-model.eps>
+(epstopdf)             \includegraphics on input line 7.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/msbldc-model-eps-converted-to.pdf, id=201, 559.08875pt x 580.1675pt>
+File: figures/msbldc-model-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/msbldc-model-eps-converted-to.pdf>
+Package pdftex.def Info: figures/msbldc-model-eps-converted-to.pdf used on inpu
+t line 7.
+(pdftex.def)             Requested size: 390.0pt x 404.71574pt.
+)) (./source/bibliography.tex
+[10] [11 <./figures/msbldc-model-eps-converted-to.pdf>]) [12]
+(./TTT4205 Mikrobolgeteknikk - Project.aux) ) 
 Here is how much of TeX's memory you used:
- 11856 strings out of 493089
- 245172 string characters out of 6134842
- 259939 words of memory out of 5000000
- 15176 multiletter control sequences out of 15000+600000
- 20248 words of font info for 50 fonts, out of 8000000 for 9000
+ 11852 strings out of 493089
+ 245246 string characters out of 6134842
+ 259976 words of memory out of 5000000
+ 15169 multiletter control sequences out of 15000+600000
+ 19482 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,39p,10432b,924s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texm
-f-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/cm-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/cm-super/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
-m-super/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
-r/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
-sfti1728.pfb>
-Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (11 pages, 285204 b
-ytes).
+ 39i,16n,41p,10432b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+cm-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
+-super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
+uper/sfcc1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
+er/sfcc2074.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
+/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
+frm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sft
+i1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1
+728.pfb>
+Output written on "TTT4205 Mikrobolgeteknikk - Project.pdf" (13 pages, 1232970 
+bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 791 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
