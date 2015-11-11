@@ -1,7 +1,7 @@
 Begin_Block  Header 
   
   Mode  ASCII 
-  File_Name  F:/ADS/branch_line_dir_coupler/simulation/branch_line_dir_coupler_lib/branch_line/layout/emSetup_MoM/EMDS4ADS.prf 
+  File_Name  Z:/brukere/MagneHaneberg/Skole/TTT4205/ADS/branch_line_dir_coupler/simulation/branch_line_dir_coupler_lib/branch_line/layout/emSetup_MoM/EMDS4ADS.prf 
   Version  3.00 
   
 End_Block  Header 
@@ -33,15 +33,15 @@ Begin_Block  Data
   End_Plane_Block 
   
   Begin_Camera_Block 
-  Position    3.0513750076293945e+001    -1.5979499816894531e+001     2.1943923950195312e+002  
+  Position    1.5691839599609375e+002    -1.4238412475585937e+002     1.2690462493896484e+002  
   Target    3.0513750076293945e+001    -1.5979499816894531e+001     5.0000000000000000e-001  
-  Up    0.0000000000000000e+000     1.0000000000000000e+000     0.0000000000000000e+000  
+  Up   -4.0824827551841736e-001     4.0824830532073975e-001     8.1649667024612427e-001  
      8.7575698852539063e+001     8.7575698852539063e+001  
   End_Camera_Block 
   
   Begin_Background_Block 
-  Top_Color    0.0000000000000000e+000     0.0000000000000000e+000     0.0000000000000000e+000  
-  Bottom_Color    0.0000000000000000e+000     0.0000000000000000e+000     0.0000000000000000e+000  
+  Top_Color    1.0000000000000000e+000     1.0000000000000000e+000     1.0000000000000000e+000  
+  Bottom_Color    1.0000000000000000e+000     1.0000000000000000e+000     1.0000000000000000e+000  
   Shadow 0  
   End_Background_Block 
   

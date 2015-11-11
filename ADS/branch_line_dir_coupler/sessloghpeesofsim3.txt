@@ -1,0 +1,566 @@
+Simulation Messages
+
+
+Status / Summary
+
+  Optimization variables:
+    branch_line.L1 = 26.2262
+    branch_line.L2 = 27.9615
+    branch_line.L50 = 15.0016
+    branch_line.W1 = 3.92102
+    branch_line.W2 = 2.36374
+    branch_line.W50 = 2.37195
+
+SP Optim1[1].SP1[169636] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=169636  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #169636:
+  CurrentEF: 40.0482574812233
+  Optimization variables:
+    branch_line.L1 = 26.2638
+    branch_line.L2 = 27.949
+    branch_line.L50 = 15.0066
+    branch_line.W1 = 3.9228
+    branch_line.W2 = 2.36501
+    branch_line.W50 = 2.37185
+
+SP Optim1[1].SP1[171730] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=171730  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #171730:
+  CurrentEF: 40.0377159716223
+  Optimization variables:
+    branch_line.L1 = 26.2334
+    branch_line.L2 = 27.9612
+    branch_line.L50 = 15.0098
+    branch_line.W1 = 3.92292
+    branch_line.W2 = 2.3648
+    branch_line.W50 = 2.37365
+
+SP Optim1[1].SP1[177254] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=177254  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #177254:
+  CurrentEF: 40.0330711664227
+  Optimization variables:
+    branch_line.L1 = 26.2342
+    branch_line.L2 = 27.9877
+    branch_line.L50 = 15.0069
+    branch_line.W1 = 3.92533
+    branch_line.W2 = 2.36649
+    branch_line.W50 = 2.37381
+
+SP Optim1[1].SP1[177291] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=177291  freq=(1.5 GHz->1.7 GHz)
+,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #177291:
+  CurrentEF: 40.0253403291351
+  Optimization variables:
+    branch_line.L1 = 26.2507
+    branch_line.L2 = 27.935
+    branch_line.L50 = 15.0104
+    branch_line.W1 = 3.92515
+    branch_line.W2 = 2.36657
+    branch_line.W50 = 2.37333
+
+SP Optim1[1].SP1[178185] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=178185  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,
+Iteration/Trial #178185:
+  CurrentEF: 40.009759579371
+  Optimization variables:
+    branch_line.L1 = 26.2164
+    branch_line.L2 = 27.9673
+    branch_line.L50 = 15.0015
+    branch_line.W1 = 3.92641
+    branch_line.W2 = 2.3671
+    branch_line.W50 = 2.37407
+
+SP Optim1[1].SP1[178793] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=178793  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #178793:
+  CurrentEF: 40.0057732562624
+  Optimization variables:
+    branch_line.L1 = 26.2763
+    branch_line.L2 = 27.9019
+    branch_line.L50 = 15.0019
+    branch_line.W1 = 3.92596
+    branch_line.W2 = 2.36694
+    branch_line.W50 = 2.37499
+
+SP Optim1[1].SP1[184191] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=184191  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #184191:
+  CurrentEF: 39.9970568048571
+  Optimization variables:
+    branch_line.L1 = 26.2794
+    branch_line.L2 = 27.8667
+    branch_line.L50 = 15.007
+    branch_line.W1 = 3.92873
+    branch_line.W2 = 2.36887
+    branch_line.W50 = 2.37581
+
+SP Optim1[1].SP1[184339] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=184339  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #184339:
+  CurrentEF: 39.9846954258892
+  Optimization variables:
+    branch_line.L1 = 26.2488
+    branch_line.L2 = 27.9208
+    branch_line.L50 = 15.0011
+    branch_line.W1 = 3.92832
+    branch_line.W2 = 2.36854
+    branch_line.W50 = 2.37572
+
+SP Optim1[1].SP1[185092] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=185092  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #185092:
+  CurrentEF: 39.9771522181919
+  Optimization variables:
+    branch_line.L1 = 26.2367
+    branch_line.L2 = 27.9254
+    branch_line.L50 = 15.0037
+    branch_line.W1 = 3.92952
+    branch_line.W2 = 2.36977
+    branch_line.W50 = 2.37742
+
+SP Optim1[1].SP1[191979] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=191979  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #191979:
+  CurrentEF: 39.9672594513344
+  Optimization variables:
+    branch_line.L1 = 26.2198
+    branch_line.L2 = 27.953
+    branch_line.L50 = 15.0004
+    branch_line.W1 = 3.92924
+    branch_line.W2 = 2.36943
+    branch_line.W50 = 2.37776
+
+SP Optim1[1].SP1[195283] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=195283  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #195283:
+  CurrentEF: 39.9628669492336
+  Optimization variables:
+    branch_line.L1 = 26.2255
+    branch_line.L2 = 27.9454
+    branch_line.L50 = 15.0003
+    branch_line.W1 = 3.92905
+    branch_line.W2 = 2.3693
+    branch_line.W50 = 2.38015
+
+SP Optim1[1].SP1[204522] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=204522  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #204522:
+  CurrentEF: 39.9430367425415
+  Optimization variables:
+    branch_line.L1 = 26.1353
+    branch_line.L2 = 28.0351
+    branch_line.L50 = 15.0205
+    branch_line.W1 = 3.93572
+    branch_line.W2 = 2.37371
+    branch_line.W50 = 2.38356
+
+SP Optim1[1].SP1[205334] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=205334  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,
+Iteration/Trial #205334:
+  CurrentEF: 39.9393115660951
+  Optimization variables:
+    branch_line.L1 = 26.2134
+    branch_line.L2 = 27.9107
+    branch_line.L50 = 15.0261
+    branch_line.W1 = 3.93495
+    branch_line.W2 = 2.37329
+    branch_line.W50 = 2.3841
+
+SP Optim1[1].SP1[206664] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=206664  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #206664:
+  CurrentEF: 39.9201880401837
+  Optimization variables:
+    branch_line.L1 = 26.163
+    branch_line.L2 = 27.9832
+    branch_line.L50 = 15.0047
+    branch_line.W1 = 3.93448
+    branch_line.W2 = 2.37284
+    branch_line.W50 = 2.38358
+
+SP Optim1[1].SP1[219270] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=219270  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #219270:
+  CurrentEF: 39.9186841104335
+  Optimization variables:
+    branch_line.L1 = 26.2283
+    branch_line.L2 = 27.9054
+    branch_line.L50 = 15.0083
+    branch_line.W1 = 3.93467
+    branch_line.W2 = 2.37312
+    branch_line.W50 = 2.38391
+
+SP Optim1[1].SP1[221220] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=221220  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #221220:
+  CurrentEF: 39.9152739627892
+  Optimization variables:
+    branch_line.L1 = 26.2429
+    branch_line.L2 = 27.8875
+    branch_line.L50 = 15.0026
+    branch_line.W1 = 3.93433
+    branch_line.W2 = 2.37289
+    branch_line.W50 = 2.3853
+
+SP Optim1[1].SP1[227092] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=227092  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #227092:
+  CurrentEF: 39.9106491671351
+  Optimization variables:
+    branch_line.L1 = 26.2359
+    branch_line.L2 = 27.8816
+    branch_line.L50 = 15.0011
+    branch_line.W1 = 3.93441
+    branch_line.W2 = 2.37296
+    branch_line.W50 = 2.38554
+
+SP Optim1[1].SP1[227620] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=227620  freq=(1.5 GHz->1.7 GHz)
+,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #227620:
+  CurrentEF: 39.8924221955425
+  Optimization variables:
+    branch_line.L1 = 26.1163
+    branch_line.L2 = 28.0186
+    branch_line.L50 = 15.0073
+    branch_line.W1 = 3.93894
+    branch_line.W2 = 2.37609
+    branch_line.W50 = 2.3874
+
+SP Optim1[1].SP1[227841] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=227841  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #227841:
+  CurrentEF: 39.8892673180937
+  Optimization variables:
+    branch_line.L1 = 26.157
+    branch_line.L2 = 27.9688
+    branch_line.L50 = 15.0071
+    branch_line.W1 = 3.94084
+    branch_line.W2 = 2.37775
+    branch_line.W50 = 2.38945
+
+SP Optim1[1].SP1[228134] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=228134  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #228134:
+  CurrentEF: 39.8685907678524
+  Optimization variables:
+    branch_line.L1 = 26.1995
+    branch_line.L2 = 27.8917
+    branch_line.L50 = 15.012
+    branch_line.W1 = 3.94167
+    branch_line.W2 = 2.37764
+    branch_line.W50 = 2.39047
+
+SP Optim1[1].SP1[230697] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=230697  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,
+Iteration/Trial #230697:
+  CurrentEF: 39.8670378309613
+  Optimization variables:
+    branch_line.L1 = 26.1412
+    branch_line.L2 = 27.9777
+    branch_line.L50 = 15.0124
+    branch_line.W1 = 3.94228
+    branch_line.W2 = 2.37806
+    branch_line.W50 = 2.39022
+
+SP Optim1[1].SP1[232790] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=232790  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #232790:
+  CurrentEF: 39.8397393865957
+  Optimization variables:
+    branch_line.L1 = 26.1896
+    branch_line.L2 = 27.9139
+    branch_line.L50 = 15.0034
+    branch_line.W1 = 3.94322
+    branch_line.W2 = 2.37884
+    branch_line.W50 = 2.39162
+
+SP Optim1[1].SP1[233520] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=233520  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #233520:
+  CurrentEF: 39.8365755139978
+  Optimization variables:
+    branch_line.L1 = 26.2077
+    branch_line.L2 = 27.8632
+    branch_line.L50 = 15
+    branch_line.W1 = 3.94401
+    branch_line.W2 = 2.37986
+    branch_line.W50 = 2.39184
+
+SP Optim1[1].SP1[233540] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=233540  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #233540:
+  CurrentEF: 39.8345156736177
+  Optimization variables:
+    branch_line.L1 = 26.2299
+    branch_line.L2 = 27.8427
+    branch_line.L50 = 15.0061
+    branch_line.W1 = 3.94466
+    branch_line.W2 = 2.37978
+    branch_line.W50 = 2.39197
+
+SP Optim1[1].SP1[233849] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=233849  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #233849:
+  CurrentEF: 39.8111321612428
+  Optimization variables:
+    branch_line.L1 = 26.1562
+    branch_line.L2 = 27.9481
+    branch_line.L50 = 15
+    branch_line.W1 = 3.94598
+    branch_line.W2 = 2.38077
+    branch_line.W50 = 2.39208
+
+SP Optim1[1].SP1[237446] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=237446  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #237446:
+  CurrentEF: 39.8056319672287
+  Optimization variables:
+    branch_line.L1 = 26.0782
+    branch_line.L2 = 27.9864
+    branch_line.L50 = 15.0075
+    branch_line.W1 = 3.9493
+    branch_line.W2 = 2.38318
+    branch_line.W50 = 2.39729
+
+SP Optim1[1].SP1[237563] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=237563  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,
+Iteration/Trial #237563:
+  CurrentEF: 39.7959622055559
+  Optimization variables:
+    branch_line.L1 = 26.1704
+    branch_line.L2 = 27.9034
+    branch_line.L50 = 15.0026
+    branch_line.W1 = 3.94948
+    branch_line.W2 = 2.38367
+    branch_line.W50 = 2.3968
+
+SP Optim1[1].SP1[237575] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=237575  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #237575:
+  CurrentEF: 39.7776085174471
+  Optimization variables:
+    branch_line.L1 = 26.2099
+    branch_line.L2 = 27.8418
+    branch_line.L50 = 15.0038
+    branch_line.W1 = 3.95131
+    branch_line.W2 = 2.38487
+    branch_line.W50 = 2.39771
+
+SP Optim1[1].SP1[238348] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=238348  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #238348:
+  CurrentEF: 39.770990484502
+  Optimization variables:
+    branch_line.L1 = 26.2037
+    branch_line.L2 = 27.8322
+    branch_line.L50 = 15.0192
+    branch_line.W1 = 3.95308
+    branch_line.W2 = 2.38584
+    branch_line.W50 = 2.39838
+
+SP Optim1[1].SP1[239518] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=239518  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #239518:
+  CurrentEF: 39.7637543799555
+  Optimization variables:
+    branch_line.L1 = 26.1566
+    branch_line.L2 = 27.8843
+    branch_line.L50 = 15.0063
+    branch_line.W1 = 3.95197
+    branch_line.W2 = 2.38503
+    branch_line.W50 = 2.39933
+
+SP Optim1[1].SP1[239831] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=239831  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #239831:
+  CurrentEF: 39.7632447313492
+  Optimization variables:
+    branch_line.L1 = 26.1539
+    branch_line.L2 = 27.8936
+    branch_line.L50 = 15.0004
+    branch_line.W1 = 3.95133
+    branch_line.W2 = 2.38447
+    branch_line.W50 = 2.39859
+
+SP Optim1[1].SP1[242323] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=242323  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #242323:
+  CurrentEF: 39.7572871338028
+  Optimization variables:
+    branch_line.L1 = 26.2446
+    branch_line.L2 = 27.7461
+    branch_line.L50 = 15.0061
+    branch_line.W1 = 3.95535
+    branch_line.W2 = 2.38735
+    branch_line.W50 = 2.3987
+
+SP Optim1[1].SP1[242649] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=242649  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #242649:
+  CurrentEF: 39.7512846621114
+  Optimization variables:
+    branch_line.L1 = 26.2317
+    branch_line.L2 = 27.7981
+    branch_line.L50 = 15.0107
+    branch_line.W1 = 3.9553
+    branch_line.W2 = 2.38755
+    branch_line.W50 = 2.39846
+
+SP Optim1[1].SP1[242835] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=242835  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #242835:
+  CurrentEF: 39.7427914349925
+  Optimization variables:
+    branch_line.L1 = 26.2105
+    branch_line.L2 = 27.822
+    branch_line.L50 = 15.0036
+    branch_line.W1 = 3.95574
+    branch_line.W2 = 2.388
+    branch_line.W50 = 2.39875
+
+SP Optim1[1].SP1[242847] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=242847  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Iteration/Trial #242847:
+  CurrentEF: 39.7412596750061
+  Optimization variables:
+    branch_line.L1 = 26.2105
+    branch_line.L2 = 27.8081
+    branch_line.L50 = 15.0077
+    branch_line.W1 = 3.95587
+    branch_line.W2 = 2.38799
+    branch_line.W50 = 2.39884
+
+SP Optim1[1].SP1[243148] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=243148  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #243148:
+  CurrentEF: 39.7393638704184
+  Optimization variables:
+    branch_line.L1 = 26.2162
+    branch_line.L2 = 27.7909
+    branch_line.L50 = 15.0135
+    branch_line.W1 = 3.95708
+    branch_line.W2 = 2.38872
+    branch_line.W50 = 2.39821
+
+SP Optim1[1].SP1[244002] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=244002  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #244002:
+  CurrentEF: 39.7302754983969
+  Optimization variables:
+    branch_line.L1 = 26.2469
+    branch_line.L2 = 27.7831
+    branch_line.L50 = 15.0108
+    branch_line.W1 = 3.95842
+    branch_line.W2 = 2.38961
+    branch_line.W50 = 2.39702
+
+SP Optim1[1].SP1[244019] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=244019  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #244019:
+  CurrentEF: 39.7163257397084
+  Optimization variables:
+    branch_line.L1 = 26.201
+    branch_line.L2 = 27.8161
+    branch_line.L50 = 15.0095
+    branch_line.W1 = 3.95896
+    branch_line.W2 = 2.39001
+    branch_line.W50 = 2.39685
+
+SP Optim1[1].SP1[245841] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=245841  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #245841:
+  CurrentEF: 39.7072739841414
+  Optimization variables:
+    branch_line.L1 = 26.225
+    branch_line.L2 = 27.7982
+    branch_line.L50 = 15.0115
+    branch_line.W1 = 3.96114
+    branch_line.W2 = 2.39119
+    branch_line.W50 = 2.39733
+
+SP Optim1[1].SP1[247941] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=247941  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #247941:
+  CurrentEF: 39.6957851873516
+  Optimization variables:
+    branch_line.L1 = 26.1834
+    branch_line.L2 = 27.8353
+    branch_line.L50 = 15.0097
+    branch_line.W1 = 3.96175
+    branch_line.W2 = 2.39213
+    branch_line.W50 = 2.39966
+
+SP Optim1[1].SP1[248013] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=248013  freq=(1.5 GHz->1.7 GHz)
+,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #248013:
+  CurrentEF: 39.6862910098722
+  Optimization variables:
+    branch_line.L1 = 26.1855
+    branch_line.L2 = 27.821
+    branch_line.L50 = 15.002
+    branch_line.W1 = 3.96145
+    branch_line.W2 = 2.39185
+    branch_line.W50 = 2.39928
+
+SP Optim1[1].SP1[248089] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=248089  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #248089:
+  CurrentEF: 39.6799336786087
+  Optimization variables:
+    branch_line.L1 = 26.1976
+    branch_line.L2 = 27.8189
+    branch_line.L50 = 15.0029
+    branch_line.W1 = 3.96177
+    branch_line.W2 = 2.39197
+    branch_line.W50 = 2.39914
+
+SP Optim1[1].SP1[248224] <branch_line_dir_coupler_lib:branch_line_test:schematic>  optIter=248224  freq=(1.5 GHz->1.7 GHz)
+,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Iteration/Trial #248224:
+  CurrentEF: 39.6733536465273
+  Optimization variables:
+    branch_line.L1 = 26.2029
+    branch_line.L2 = 27.8106
+    branch_line.L50 = 15.0008
+    branch_line.W1 = 3.96235
+    branch_line.W2 = 2.39235
+    branch_line.W50 = 2.39904

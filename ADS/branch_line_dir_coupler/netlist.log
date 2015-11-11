@@ -15,12 +15,12 @@ MTEE_ADS:Tee2  N__20 N__4 N__14 Subst="MSub1" W1=W1 mm W2=W50 mm W3=W2 mm
 MTEE_ADS:Tee3  N__10 N__3 N__24 Subst="MSub1" W1=W1 mm W2=W50 mm W3=W2 mm 
 MTEE_ADS:Tee4  N__6 N__25 N__15 Subst="MSub1" W1=W50 mm W2=W1 mm W3=W2 mm 
 
-L50=15.0079 opt{ 15 to 30 }
-W50=2.34946 opt{ 2.2 to 2.4 }
-W1=3.831 opt{ 3.8 to 4 }
-L1=26.3835 opt{ 15 to 30 }
-W2=2.29944 opt{ 2.2 to 2.4 }
-L2=28.0651 opt{ 15 to 30 }
+L50=15.0025 opt{ 15 to 30 }
+W50=2.32998 opt{ 2.2 to 2.4 }
+W1=3.85049 opt{ 3.8 to 4 }
+L1=26.3925 opt{ 15 to 30 }
+W2=2.31498 opt{ 2.2 to 2.4 }
+L2=28.1086 opt{ 15 to 30 }
 model MSub1 MSUB H=1 mm Er=3.32 Mur=1 Cond=4.1e7 Hu=1.0e+033 mm T=0.150 mil TanD=0 Rough=0 mm DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 end branch_line
 branch_line:I__0  N__2 N__0 N__3 N__1 
