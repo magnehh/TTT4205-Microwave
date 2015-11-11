@@ -1,2 +1,0 @@
-z0 = 50; %ohm
-k_c_50 = k_c(2,1); % -3dB coupling ratio
